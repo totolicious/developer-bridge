@@ -19,6 +19,14 @@ First-time set up:
 
   3. Run `yarn install && yarn build` from the root of the repo
 
+Development
+-----------
+
+To run scripts found in the `./packages` directory, first you need to:
+* run `yarn build` in the root directory to build the project
+* run your script with `node ./packages/package-name/lib/path/to/script.js`
+
+(to run the cli, you would run `yarn build; node ./packages/sdk-cli/lib/cli.js`)
 
 Help
 ===================
